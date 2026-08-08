@@ -1,0 +1,22 @@
+[ External DC Power Supply ] 
+       (+) |---> [ EXT_PWR (+) ] (Blue Terminal Block on Shield edge)
+       (-) |---> [ EXT_PWR (-) ] 
+       
+  [ DVD Drive Stepper Motor X ] (4 wires)
+       Coil A1 ---> [ M1 ] Terminal 
+       Coil A2 ---> [ M1 ] Terminal 
+       Coil B1 ---> [ M2 ] Terminal 
+       Coil B2 ---> [ M2 ] Terminal 
+
+  [ DVD Drive Stepper Motor Y ] (4 wires)
+       Coil A1 ---> [ M3 ] Terminal 
+       Coil A2 ---> [ M3 ] Terminal
+       Coil B1 ---> [ M4 ] Terminal 
+       Coil B2 ---> [ M4 ] Terminal 
+
+  [ TowerPro SG90 Z-Axis Servo ] (3-pin header)
+       Signal (Orange / Yellow) ---> [ S ] Pin (usually Pin 10)
+       VCC (Red)                  ---> [ + ] 5V Pin
+       GND (Brown / Black)        ---> [ - ] Ground Pin
+  
+  [you just need to connect the servo to the servo one with yellow wire(signal wire) to the s one the direction marked on the sheild]
